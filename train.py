@@ -114,7 +114,7 @@ def main_work(local_rank, config):
         plt.semilogy(train_idx, train_loss)
         plt.title('Train Loss')
         fig.savefig(config['figs_loss_train'])
-        plt.show()
+        # plt.show()
 
     dist.destroy_process_group()
 
