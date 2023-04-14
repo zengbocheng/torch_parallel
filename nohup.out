@@ -1,0 +1,12 @@
+/home/zengbocheng/Projects/torch_parallel/train.py:49: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  data = torch.tensor(data, dtype=dtype, device=local_rank)
+/home/zengbocheng/Projects/torch_parallel/train.py:49: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  data = torch.tensor(data, dtype=dtype, device=local_rank)
+/home/zengbocheng/Projects/torch_parallel/train.py:49: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  data = torch.tensor(data, dtype=dtype, device=local_rank)
+/home/zengbocheng/Projects/torch_parallel/train.py:50: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  label = torch.tensor(label, dtype=dtype, device=local_rank)
+/home/zengbocheng/Projects/torch_parallel/train.py:50: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  label = torch.tensor(label, dtype=dtype, device=local_rank)
+/home/zengbocheng/Projects/torch_parallel/train.py:50: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  label = torch.tensor(label, dtype=dtype, device=local_rank)
