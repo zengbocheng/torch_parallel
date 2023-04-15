@@ -41,9 +41,10 @@ def process_config(config):
 
     # set device
     if config['gpu']:
-        config['device'] = torch.device('cuda')
         os.environ['CUDA_VISIBLE_DEVICES'] = config['gpu_index']
         config['world_size'] = len(config['gpu_index'].split(','))
+        config['device'] = torch.device('cuda:0')
+
     else:
         config['device'] = torch.device('cpu')
 
